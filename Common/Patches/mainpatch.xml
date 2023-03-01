@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName="Silver"]/stackLimit</xpath>
+        <value>
+            <stackLimit>5000</stackLimit>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName="Plant_TreeAnima"]/comps/li/requiredSubplantCountPerPsylinkLevel</xpath>
+        <value>
+            <requiredSubplantCountPerPsylinkLevel>
+                <li>5</li>
+                <li>10</li>
+                <li>15</li>
+                <li>20</li>
+                <li>25</li>
+                <li>30</li>
+            </requiredSubplantCountPerPsylinkLevel>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName="BiosculpterPod"]/statBases/BiosculpterPodSpeedFactor</xpath>
+        <value>
+            <BiosculpterPodSpeedFactor>3</BiosculpterPodSpeedFactor>
+        </value>
+    </Operation>    
+</Patch>
