@@ -25,5 +25,19 @@
         <value>
             <BiosculpterPodSpeedFactor>3</BiosculpterPodSpeedFactor>
         </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName="BiosculpterPod"]/li[key = bioregeneration]/bodyPartsToRestore</xpath>
+        <value>
+            <bodyPartsToRestore>
+                <li>Eye</li>
+                <li>Ear</li>
+                <li>Nose</li>
+                <li>Finger</li>
+                <li>Toe</li>
+                <li>Tongue</li>
+                <li>Jaw</li>
+            </bodyPartsToRestore>
+        </value>
     </Operation>    
 </Patch>
