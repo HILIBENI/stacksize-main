@@ -39,5 +39,11 @@
                 <li>Jaw</li>
             </bodyPartsToRestore>
         </value>
-    </Operation>    
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName="Plant_GrassAnima"]/plant/lifespanDaysPerGrowDays</xpath>
+        <value>
+            <lifespanDaysPerGrowDays>120</lifespanDaysPerGrowDays>
+        </value>
+    </Operation>  
 </Patch>
